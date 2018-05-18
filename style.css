@@ -1,0 +1,28 @@
+html {
+  background: rgb(53,61,97);
+}
+.header {
+  text-align: center;
+
+}
+.game_container {
+  display:flex;
+  justify-content: center;
+}
+
+.Boxes {
+  display:flex;
+  flex-wrap:wrap;
+  width: 306px;
+  height: 305px;
+  padding:0;
+  margin:0;
+  background: white;
+
+}
+
+img {
+  width: 100px;
+  height: 100px;
+  padding: 1px;
+}

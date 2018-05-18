@@ -1,16 +1,41 @@
 <html>
-<head></head>
+<head>
+<link rel="Stylesheet" href="style.css"></link>
+</head>
 <body>
   <h1 class='header'>Slider Puzzle</header>
-  <div id="box1"><div>
-  <div id="box2"><div>
-  <div id="box3"><div>
-  <div id="box4"><div>
-  <div id="box5"><div>
-  <div id="box6"><div>
-  <div id="box7"><div>
-  <div id="box8"><div>
-  <div id="box9"><div> 
-
+  <div class="game_container">
+    <div class="Boxes">
+        <div id="box1" class="boxOne">
+        <img id="firstBox" src="Images/image_part_001.jpg" alt="pic1">
+       </div>
+       <div id="box2" class="boxTwo">
+        <img src="Images/image_part_002.jpg" alt="pic2">
+       </div>
+       <div id="box3" class="boxThree" ondragover="allowDrop(event)
+        "ondrop="drop(event)">
+       <img src="Images/image_part_003.jpg" alt="pic3">
+       </div>
+       <div class="box4">
+        <img src="Images/image_part_004.jpg" alt="pic4">
+       </div>
+       <div class="box5">
+        <img src="Images/image_part_005.jpg" alt="pic5">
+      </div>
+      <div class="box6">
+        <img src="Images/image_part_006.jpg" alt="pic6">
+      </div>
+      <div class="box7">
+        <img src="Images/image_part_007.jpg" alt="pic7">
+      </div>
+      <div class="box8">
+        <img src="Images/image_part_008.jpg" alt="pic8">
+      </div>
+      <div class="box9">
+        <img src="Images/image_part_009.jpg" alt="pic9">
+      </div>
+    </div>
+  </div>
+<script src="script.js"></script>
 </body>
 </html>
